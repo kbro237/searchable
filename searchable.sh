@@ -5,5 +5,6 @@
 
 for raw in *.pdf
 do
-	pdfocr -t -i "$raw" -o "$raw.searchable.pdf"
+	justthename=`basename "$raw" | sed 's/\.pdf//'`
+	pdfocr -t -i "$raw" -o "$justthename.searchable.pdf"
 done
