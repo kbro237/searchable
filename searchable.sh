@@ -16,7 +16,7 @@ do
 	fi
 	justthename=`basename "$raw" | sed 's/\.pdf//'`
 	# run pdfocr.rb using the tesseract engine ( -t )
-	pdfocr -t -i "$raw" -o "$justthename.searchable.pdf"
+	pdfocr -t -i "$raw" -o "$justthename.pdf"
 
 	# move out the raw PDFs and give them a new name based on the current
 	# date
