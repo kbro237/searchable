@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script will take all the .pdf files given as arguments and use
-# [pdfocr](http://github.com/gkovacs/pdfocr) to run ocr and make them
-# searchable PDFs. 
+# [pdfocr](http://github.com/gkovacs/pdfocr) to process them with ocr and
+# make them searchable PDFs. 
 
 # make a directory for the raw PDFs after we're done with them
 olddir="/tmp/obsolete pdfs"
