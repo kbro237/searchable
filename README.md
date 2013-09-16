@@ -4,7 +4,7 @@ This script will take all the .pdf files given as arguments and use
 [pdfocr](http://github.com/gkovacs/pdfocr) to run ocr and make them
 searchable pdfs.
 
-Then, the old pdf's are moved to a directory called `obsolete pdfs` in case they are wanted, or the ocr'ing hoses them.
+First, the original pdf files are moved to a tmp directory (specified in the script) in case they are wanted, or the ocr'ing hoses them. Then, the processed pdf files are copied back into the current directory.
 
 ## usage
 
